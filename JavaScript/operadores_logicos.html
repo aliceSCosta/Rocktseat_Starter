@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Curso JS</title>
+    </head>
+    <body>
+        <script>
+            // AND, OR, NOT
+
+            var sexo = 'F', idade = 18;
+
+            //AND
+            if(sexo === 'F' && idade >= 18){
+                console.log('OK');
+            }
+
+            //OR
+            if(sexo === 'F' || idade < 15){
+                console.log('OK');
+            }
+
+            if(sexo !== 'M'){
+                console.log('OK');
+            }
+
+            // armazenar o valor da condição em uma variável
+
+            var sexo = 'M';
+            var masculino;
+
+            if(sexo === 'M'){
+                masculino = true;
+            }
+            else{
+                masculino = false;
+            }
+            console.log(masculino);
+
+            // para diminuir ainda mais o código
+
+            var sexo = 'M';
+
+            var masculino = sexo === 'M';
+
+            console.log(masculino);
+        </script>
+    </body>
+</html>
